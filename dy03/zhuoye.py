@@ -16,9 +16,53 @@ def jiujiu():
 
 
 def jidan():
+    for i in range(0,1000):
+        if(i%4==1):
+            if(i%5==4):
+                if(i%6==3):
+                    if(i%7==5):
+                        if(i%8==1):
+                            if(i%9==0):
+                             print(i)
+
+# 求1dao100数之间的偶数和
+
+def oushu():
+    he=0
+    for i in range(1,100):
+        h=i%2
+        if h==0:
+            he = he + i
+    print(he)
+
+
+
+#求两个数之间的偶数和
+
+
+def sumoushu(a,b):
+
+
+
+
+
+
+
+# 求1到50之间的奇数和
+def jishu():
+    sum = 0
+    for i in range(1,51):
+        k=i%2
+        if k==1:
+          sum=sum+i
+    print(sum)
 
 
 
 
 if __name__ == '__main__':
-    jiujiu()
+    # jiujiu()
+    # jidan()
+    # oushu()
+    # jishu()
+    oushu()

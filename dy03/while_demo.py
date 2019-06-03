@@ -5,10 +5,12 @@ def while_qq():
         a+=1
 
 def while_tt():
-    s=1
-    while s<6:
-        print(s)
-        s+=1
+    a=0
+    while a<8:
+
+        print(a)
+        a+=1
+
 
 
 
